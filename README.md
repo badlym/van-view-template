@@ -40,10 +40,6 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 
 ## 文档
  文档正在加班加点写。。。
-[//]: # ([文档地址 Github]&#40;https://element-plus-admin-doc.cn/&#41;)
-
-[//]: # ()
-[//]: # ([文档地址 Gitee]&#40;https://kailong110120130.gitee.io/vue-element-plus-admin-doc&#41;)
 
 ## 前序准备
 
