@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+#自动按需引入的类型生命文件不需要提交
+.eslintrc-auto-import.json
+components.d.ts
+node_modules
+dist
+dist-ssr
+E10077531
+E10077531.zip
+*.zip
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
