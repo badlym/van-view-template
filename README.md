@@ -39,7 +39,7 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 [//]: # (`test` 帐号用于模拟前端控制权限，服务端只返回需要显示的菜单 key，前端进行匹配渲染)
 
 ## 文档
-
+ 文档正在加班加点写。。。
 [//]: # ([文档地址 Github]&#40;https://element-plus-admin-doc.cn/&#41;)
 
 [//]: # ()
