@@ -1,18 +1,16 @@
 <template>
-<div>
-
-  <van-button type="primary" @click="handleClick">主要按钮</van-button>
-
-</div>
+  <div>
+    <van-button type="primary" @click="handleClick">主要按钮</van-button>
+    {{ value }}
+  </div>
 </template>
 
-<script setup name="demo">
+<script setup lang="ts" name="demo">
+  const value = ref('van-view-template');
 
-function handleClick() {
-alert('点击了确定按钮')
-}
+  function handleClick() {
+    alert('欢迎使用');
+  }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
