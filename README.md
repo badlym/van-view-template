@@ -49,7 +49,7 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 - [TypeScript](https://www.typescriptlang.org/) - 熟悉 `TypeScript` 基本语法
 - [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
 - [Vue-Router-Next](https://next.router.vuejs.org/) - 熟悉 vue-router 基本使用
-- [Element-Plus](https://element-plus.org/) - element-plus 基本使用
+- [vant](https://vant-contrib.gitee.io/vant/v3/#/zh-CN/home) - element-plus 基本使用
 - [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
 
 ## 安装和使用
