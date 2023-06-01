@@ -1,6 +1,6 @@
 {
   "name": "van-view-template",
-  "private": true,
+  "private": false,
   "version": "0.0.4",
   "type": "module",
   "scripts": {
