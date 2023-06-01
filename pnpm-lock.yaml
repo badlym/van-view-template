@@ -129,6 +129,9 @@ devDependencies:
   commitizen:
     specifier: ^4.3.0
     version: registry.npmmirror.com/commitizen@4.3.0
+  conventional-changelog；:
+    specifier: link:@release-it/conventional-changelog；
+    version: link:@release-it/conventional-changelog；
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: registry.npmmirror.com/cz-conventional-changelog@3.3.0
