@@ -13,4 +13,5 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     }
+  }
 }
