@@ -57,7 +57,7 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 - 获取代码
 
 ```bash
-git clone https://github.com/kailong321200875/vue-element-plus-admin.git
+git clone https://github.com/badlym/van-view-template.git
 ```
 
 - 安装依赖
