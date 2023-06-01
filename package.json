@@ -25,7 +25,12 @@
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
     "analysis": "windicss-analysis",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badlym/van-view-template"
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^4.0.3",
@@ -47,6 +52,7 @@
     "picocolors": "^1.0.0",
     "pinia": "^2.0.35",
     "qs": "^6.11.1",
+    "release-it": "^15.10.3",
     "resize-observer-polyfill": "^1.5.1",
     "rimraf": "^5.0.0",
     "vant": "^4.2.0",
