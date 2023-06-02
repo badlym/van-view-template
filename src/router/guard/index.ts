@@ -1,3 +1,4 @@
+import { getSessionWebStorageCache } from '@/utils/auth';
 import { $utils } from '@/utils/uexCore';
 import type { Router } from 'vue-router';
 
@@ -34,7 +35,7 @@ const createPermissionGuard = (router: Router) => {
 const createRouterGuard = (router: Router) => {
   router.beforeEach((to, from, next) => {
     // let routerArr = JSON.parse($utils.getVal("routerArr"));
-    let routerArr = $utils.getSessionVal('routerArr');
+    let routerArr = getSessionWebStorageCache<string[]>('routerArr');
 
     if (!routerArr && typeof routerArr !== 'undefined' && routerArr !== 0) {
       //判断为null 没有存值
@@ -44,11 +45,12 @@ const createRouterGuard = (router: Router) => {
     // 存储上一页
     if (routerArr[routerArr.length - 1] !== from.name) {
       // let currentRouteName = $utils.getVal("currentRouteName");
-      const currentRouteName = $utils.getSessionVal('currentRouteName') || '';
-      const currentRoutePath = $utils.getSessionVal('currentRoutePath') || '';
+      const currentRouteName = getSessionWebStorageCache('currentRouteName') || '';
+
+      const currentRoutePath = getSessionWebStorageCache('currentRoutePath') || '';
 
       if (currentRouteName !== from.name || currentRoutePath !== from.path) {
-        routerArr.push(from.name);
+        routerArr.push(<string>from.name);
         // $utils.setVal("routerArr", routerArr)
         $utils.setSessionVal('routerArr', routerArr);
       }

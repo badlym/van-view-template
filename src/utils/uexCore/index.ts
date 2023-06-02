@@ -106,5 +106,4 @@ function $myUexWindow(key) {
 
 // 微应用注册监听
 
-
 export { $utils, $myUexCore, $myUexWindow };
