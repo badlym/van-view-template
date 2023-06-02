@@ -1,5 +1,12 @@
 
 
+## [0.0.8](https://github.com/badlym/van-view-template/compare/v0.0.7...v0.0.8) (2023-06-02)
+
+
+### Bug Fixes
+
+* 修复路由后退按钮 ([f68b895](https://github.com/badlym/van-view-template/commit/f68b895d82463025c66b421382afd108cfb432c4))
+
 ## [0.0.7](https://github.com/badlym/van-view-template/compare/v0.0.5...v0.0.7) (2023-06-01)
 
 
