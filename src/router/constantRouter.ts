@@ -13,6 +13,14 @@ export const constantRouterMap: AppRouteRecordRaw[] = [
     },
   },
   {
+    name: 'Demo2',
+    path: '/demo2',
+    component: () => import('@/view/demo2/index.vue'),
+    meta: {
+      title: '测试页面',
+    },
+  },
+  {
     name: 'notFound',
     path: '/:path(.*)+',
     redirect: {

@@ -1,5 +1,4 @@
-import { getSessionWebStorageCache } from '@/utils/auth';
-import { $utils } from '@/utils/uexCore';
+import { getSessionWebStorageCache, setSessionWebStorageCache } from '@/utils/auth';
 import type { Router } from 'vue-router';
 
 export const setupRouterGuard = (router: Router) => {
@@ -52,7 +51,7 @@ const createRouterGuard = (router: Router) => {
       if (currentRouteName !== from.name || currentRoutePath !== from.path) {
         routerArr.push(<string>from.name);
         // $utils.setVal("routerArr", routerArr)
-        $utils.setSessionVal('routerArr', routerArr);
+        setSessionWebStorageCache('routerArr', routerArr);
       }
     }
 

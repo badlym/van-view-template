@@ -1,6 +1,4 @@
-import { UexCoreEnum } from '@/enums/uexCore';
 import { useCache } from '@/hooks/web/useCache';
-import { getToken } from '@/utils/auth';
 import BigNumber from 'bignumber.js';
 
 const $utils = {
