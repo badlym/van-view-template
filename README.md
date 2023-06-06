@@ -63,7 +63,7 @@ git clone https://github.com/badlym/van-view-template.git
 - 安装依赖
 
 ```bash
-cd vue-element-plus-admin
+cd van-view-template
 
 pnpm install
 
