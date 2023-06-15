@@ -5,8 +5,6 @@
 <h1>van-view-template</h1>
 </div>
 
-[//]: # ([English]&#40;./README.md&#41; | **中文**)
-
 ## 介绍
 
 van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专为快速搭建移动端页面而生。
@@ -16,30 +14,22 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 - **最新技术栈**：使用 Vue3/vite4 等前端前沿技术开发
 - **TypeScript**: 应用程序级 JavaScript 的语言
 
-[//]: # (- **主题**: 可配置的主题)
-[//]: # (- **国际化**：内置完善的国际化方案)
 - **自定义数据** 内置 Mock 数据方案
-
-[//]: # (- **权限** 内置完善的动态路由权限生成方案)
-[//]: # (- **组件** 二次封装了多个常用的组件)
-[//]: # (- **示例** 内置丰富的示例)
 
 ## 预览
 
 - [van-view-template](https://badlym.github.io/van-view-template/) - 完整版 github 站点
 
-[//]: # (- [vue-element-plus-admin]&#40;https://kailong110120130.gitee.io/vue-element-plus-admin&#41; - 完整版 gitee 站点)
+## 提示
 
-[//]: # (帐号：**admin/admin test/test**)
+本套基础架构曾经用于多个实际项目中（例如网上国网app），经过了充分的检验，但是随着业务的发展，可能会有一些小问题，如果你发现了问题，欢迎提出来，我会及时修复。
+主要应用于hybrid app，跟原生交互主要是通过jsBridge，区别于uniapp的开发方式。
+因为时间紧张，我并没有造UI样式的轮子，主要应用的就是vant。更何况移动端的开发本来就是要还原设计稿，所以我觉得没必要造ui样式的轮子。
 
-[//]: # ()
-[//]: # (`admin` 帐号用于模拟服务端控制权限，服务端返回什么就渲染什么)
-
-[//]: # ()
-[//]: # (`test` 帐号用于模拟前端控制权限，服务端只返回需要显示的菜单 key，前端进行匹配渲染)
 
 ## 文档
- 文档正在加班加点写。。。
+
+文档正在加班加点写。。。
 
 ## 前序准备
 
@@ -49,8 +39,9 @@ van-view-template 是一个基于 vue3+vite+vant的移动端开源模板，专�
 - [TypeScript](https://www.typescriptlang.org/) - 熟悉 `TypeScript` 基本语法
 - [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
 - [Vue-Router-Next](https://next.router.vuejs.org/) - 熟悉 vue-router 基本使用
-- [vant](https://vant-contrib.gitee.io/vant/v3/#/zh-CN/home) - element-plus 基本使用
+- [vant](https://vant-contrib.gitee.io/vant/v3/#/zh-CN/home) - vant 基本使用
 - [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
+- [Home | Windi CSS](https://cn.windicss.org/) -windicss 基本用法
 
 ## 安装和使用
 
@@ -87,8 +78,6 @@ pnpm run build:pro
 
 ## 如何贡献
 
-[//]: # (你可以[提一个 issue]&#40;https://github.com/kailong321200875/vue-element-plus-admin/issues/new&#41; 或者提交一个 Pull Request。)
-
 **Pull Request:**
 
 1. Fork 代码
@@ -121,10 +110,25 @@ pnpm run build:pro
 
 支持现代浏览器, 不支持 IE
 
+
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| :-: | :-: | :-: | :-: | :-: |
-| not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                   not support                                                                                                                   |                                                                                            last 2 versions                                                                                            |                                                                                                  last 2 versions                                                                                                  |                                                                                                last 2 versions                                                                                                |                                                                                                last 2 versions                                                                                                |
 
 ## 许可证
 
 [MIT](./LICENSE)
+
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
+[//]: #
