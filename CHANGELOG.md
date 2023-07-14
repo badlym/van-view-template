@@ -1,5 +1,18 @@
 
 
+## [0.0.9](https://github.com/badlym/van-view-template/compare/v0.0.8...v0.0.9) (2023-07-14)
+
+
+### Bug Fixes
+
+* 修改readme的文档 ([e63e1bf](https://github.com/badlym/van-view-template/commit/e63e1bf060c7eaeb577f1785e8f863e9bf7562b3))
+* 添加页面demo，后退demo ([e215640](https://github.com/badlym/van-view-template/commit/e215640b218844ea6349e0eeca82ea6bd50c37bc))
+
+
+### Performance Improvements
+
+* 修改readme的文档中的错误用法 ([4bbbd91](https://github.com/badlym/van-view-template/commit/4bbbd91a3ebd26984fb1a1787ec864c25ed533ae))
+
 ## [0.0.8](https://github.com/badlym/van-view-template/compare/v0.0.7...v0.0.8) (2023-06-02)
 
 
